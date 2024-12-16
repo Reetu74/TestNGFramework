@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite Framework]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="Sweetgirl$74"/>
+  <parameter name="invalidusernm" value="221"/>
+  <parameter name="invalidpswd" value="1221"/>
+  <parameter name="username" value="reetu@softtech.com"/>
+  <test name="Salesforce(failed)">
+    <classes>
+      <class name="com.testng.testcases.UserMenuTest">
+        <methods>
+          <include name="closingdown"/>
+          <include name="usernavmenudropdown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.testng.testcases.UserMenuTest -->
+    </classes>
+  </test> <!-- Salesforce(failed) -->
+</suite> <!-- Failed suite [TestSuite Framework] -->

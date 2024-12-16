@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-14T10:32:39 PST" name="TestSuite Framework" finished-at="2024-12-14T10:33:36 PST" duration-ms="57259">
+    <groups>
+    </groups>
+    <test started-at="2024-12-14T10:32:39 PST" name="Salesforce" finished-at="2024-12-14T10:33:36 PST" duration-ms="57259">
+      <class name="com.testng.testcases.LoginTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.testcases.LoginTest@399f45b1]" started-at="2024-12-14T10:32:39 PST" name="beforeMethod" finished-at="2024-12-14T10:32:49 PST" duration-ms="10670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginerrormessage()[pri:1, instance:com.testng.testcases.LoginTest@399f45b1]" started-at="2024-12-14T10:32:49 PST" name="loginerrormessage" finished-at="2024-12-14T10:32:55 PST" duration-ms="5332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginerrormessage -->
+        <test-method is-config="true" signature="closingdown()[pri:0, instance:com.testng.testcases.LoginTest@399f45b1]" started-at="2024-12-14T10:32:55 PST" name="closingdown" finished-at="2024-12-14T10:32:55 PST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingdown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.testcases.LoginTest@399f45b1]" started-at="2024-12-14T10:32:55 PST" name="beforeMethod" finished-at="2024-12-14T10:32:59 PST" duration-ms="4155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="logintoSalesforce()[pri:2, instance:com.testng.testcases.LoginTest@399f45b1]" started-at="2024-12-14T10:32:59 PST" name="logintoSalesforce" finished-at="2024-12-14T10:33:07 PST" duration-ms="7559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoSalesforce -->
+        <test-method is-config="true" signature="closingdown()[pri:0, instance:com.testng.testcases.LoginTest@399f45b1]" started-at="2024-12-14T10:33:07 PST" name="closingdown" finished-at="2024-12-14T10:33:07 PST" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingdown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.testcases.LoginTest@399f45b1]" started-at="2024-12-14T10:33:07 PST" name="beforeMethod" finished-at="2024-12-14T10:33:11 PST" duration-ms="3845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="checkRememberme()[pri:3, instance:com.testng.testcases.LoginTest@399f45b1]" started-at="2024-12-14T10:33:11 PST" name="checkRememberme" finished-at="2024-12-14T10:33:21 PST" duration-ms="10046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRememberme -->
+        <test-method is-config="true" signature="closingdown()[pri:0, instance:com.testng.testcases.LoginTest@399f45b1]" started-at="2024-12-14T10:33:21 PST" name="closingdown" finished-at="2024-12-14T10:33:22 PST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingdown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.testcases.LoginTest@399f45b1]" started-at="2024-12-14T10:33:22 PST" name="beforeMethod" finished-at="2024-12-14T10:33:25 PST" duration-ms="3461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="forgotPassword()[pri:4, instance:com.testng.testcases.LoginTest@399f45b1]" started-at="2024-12-14T10:33:25 PST" name="forgotPassword" finished-at="2024-12-14T10:33:27 PST" duration-ms="2244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+        <test-method is-config="true" signature="closingdown()[pri:0, instance:com.testng.testcases.LoginTest@399f45b1]" started-at="2024-12-14T10:33:27 PST" name="closingdown" finished-at="2024-12-14T10:33:28 PST" duration-ms="551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingdown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.testcases.LoginTest@399f45b1]" started-at="2024-12-14T10:33:28 PST" name="beforeMethod" finished-at="2024-12-14T10:33:31 PST" duration-ms="3645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidCredentials()[pri:5, instance:com.testng.testcases.LoginTest@399f45b1]" started-at="2024-12-14T10:33:31 PST" name="invalidCredentials" finished-at="2024-12-14T10:33:35 PST" duration-ms="3315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredentials -->
+        <test-method is-config="true" signature="closingdown()[pri:0, instance:com.testng.testcases.LoginTest@399f45b1]" started-at="2024-12-14T10:33:35 PST" name="closingdown" finished-at="2024-12-14T10:33:36 PST" duration-ms="1020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingdown -->
+      </class> <!-- com.testng.testcases.LoginTest -->
+    </test> <!-- Salesforce -->
+  </suite> <!-- TestSuite Framework -->
+</testng-results>

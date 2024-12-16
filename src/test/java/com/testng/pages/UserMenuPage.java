@@ -37,6 +37,7 @@ public class UserMenuPage extends BasePage {
 	List<WebElement> usernavmenu; // list of WebElemnts
 
 	public void verifyusermenudropdown() {
+		//validate usermenu - not working
 		List<String> expectedlist = Arrays.asList("My Profile", "My Settings", "Developer Console",
 				"\"Switch to Lightning Experience", "Logout");
 		List<WebElement> usernavmenu = driver.findElements(By.xpath("//div[@id='userNavMenu']"));

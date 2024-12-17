@@ -3,20 +3,21 @@
 
 <suite name="TestSuite Framework">
 
-<test name = "Salesforce">
+	<test name="Salesforce">
 
-<classes>
-
-
-<class name = "com.testng.testcases.LoginTest"></class>
+		<classes>
 
 
+			<class name="com.testng.testcases.LoginTest"></class>
+
+			<class name="com.testng.testcases.UserMenuTest"></class>
+
+			<class name="com.testng.testcases.AccountTest"></class>
+
+		</classes>
 
 
-</classes>
-
-
-</test>
+	</test>
 
 
 

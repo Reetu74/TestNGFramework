@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.testcases.AccountTest">
+      <class name="com.testng.testcases.UserMenuTest">
         <methods>
           <include name="beforeMethod"/>
-          <include name="createnewview"/>
           <include name="closingdown"/>
+          <include name="mysettingsfuctions"/>
         </methods>
-      </class> <!-- com.testng.testcases.AccountTest -->
+      </class> <!-- com.testng.testcases.UserMenuTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

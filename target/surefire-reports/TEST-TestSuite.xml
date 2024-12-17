@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="58.683" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="211.828" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="webdriver.chrome.driver" value="C:\Users\ajayk\.cache\selenium\chromedriver\win64\131.0.6778.108\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\ajayk\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\ajayk\AppData\Local\Temp\surefire16910190664735593553\surefirebooter-20241214103236501_3.jar C:\Users\ajayk\AppData\Local\Temp\surefire16910190664735593553 2024-12-14T10-32-36_142-jvmRun1 surefire-20241214103236501_1tmp surefire_0-20241214103236501_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\ajayk\AppData\Local\Temp\surefire8281438794258194340\surefirebooter-20241216173617092_3.jar C:\Users\ajayk\AppData\Local\Temp\surefire8281438794258194340 2024-12-16T17-36-16_833-jvmRun1 surefire-20241216173617092_1tmp surefire_0-20241216173617092_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Workspace\SalesforceTestNGFramework\target\test-classes;C:\Workspace\SalesforceTestNGFramework\target\classes;C:\Users\ajayk\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\ajayk\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\ajayk\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\ajayk\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\ajayk\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\ajayk\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\ajayk\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\ajayk\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\ajayk\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\ajayk\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\ajayk\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\ajayk\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ajayk\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\ajayk\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ajayk\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\ajayk\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ajayk\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ajayk\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ajayk\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ajayk\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ajayk\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\ajayk\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\ajayk\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\ajayk\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\ajayk\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\ajayk\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\ajayk\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\ajayk\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ajayk\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ajayk\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\ajayk\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\ajayk\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\ajayk\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\ajayk\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\ajayk\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\ajayk\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\ajayk\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\ajayk\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\ajayk\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\ajayk\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\ajayk\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\ajayk\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\ajayk\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\ajayk\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\ajayk\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\ajayk\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\ajayk\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\ajayk\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\ajayk\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\ajayk\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\ajayk\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\ajayk\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\ajayk\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\ajayk\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\ajayk\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ajayk\AppData\Local\Temp\surefire16910190664735593553\surefirebooter-20241214103236501_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ajayk\AppData\Local\Temp\surefire8281438794258194340\surefirebooter-20241216173617092_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23+37"/>
@@ -61,53 +61,147 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="loginerrormessage" classname="com.testng.testcases.LoginTest" time="5.332">
+  <testcase name="loginerrormessage" classname="com.testng.testcases.LoginTest" time="3.07">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 27665
+Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 39995
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 27665.
-Dec 14, 2024 10:32:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 39995.
+Dec 16, 2024 5:36:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="logintoSalesforce" classname="com.testng.testcases.LoginTest" time="7.555">
-    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 47126
+  <testcase name="logintoSalesforce" classname="com.testng.testcases.LoginTest" time="7.13">
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 31995
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 47126.
-Dec 14, 2024 10:32:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 31995.
+Dec 16, 2024 5:36:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="checkRememberme" classname="com.testng.testcases.LoginTest" time="10.033">
-    <system-err><![CDATA[[1734201187.430][SEVERE]: Unable to receive message from renderer
-Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 4352
+  <testcase name="checkRememberme" classname="com.testng.testcases.LoginTest" time="12.048">
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 3593
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 4352.
-Dec 14, 2024 10:33:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 3593.
+Dec 16, 2024 5:36:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="forgotPassword" classname="com.testng.testcases.LoginTest" time="2.24">
-    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 4058
+  <testcase name="forgotPassword" classname="com.testng.testcases.LoginTest" time="2.287">
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 36096
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 4058.
-Dec 14, 2024 10:33:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 36096.
+Dec 16, 2024 5:36:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="invalidCredentials" classname="com.testng.testcases.LoginTest" time="3.321">
-    <system-err><![CDATA[[1734201208.043][SEVERE]: Unable to receive message from renderer
-Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 34994
+  <testcase name="invalidCredentials" classname="com.testng.testcases.LoginTest" time="1.585">
+    <system-err><![CDATA[[1734399423.943][SEVERE]: Unable to receive message from renderer
+Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 34611
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 34994.
-Dec 14, 2024 10:33:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully on port 34611.
+Dec 16, 2024 5:37:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="developerconsolefunctions" classname="com.testng.testcases.UserMenuTest" time="6.501">
+    <system-out><![CDATA[UserMenuDropDown Opened
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 38833
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 38833.
+Dec 16, 2024 5:37:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="logoutoption" classname="com.testng.testcases.UserMenuTest" time="13.493">
+    <system-out><![CDATA[UserMenuDropDown Opened
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 21860
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 21860.
+Dec 16, 2024 5:37:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="myprofilefunctions" classname="com.testng.testcases.UserMenuTest" time="43.191">
+    <system-out><![CDATA[UserMenuDropDown Opened
+About Tab is opened
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 37376
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 37376.
+Dec 16, 2024 5:37:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="mysettingsfuctions" classname="com.testng.testcases.UserMenuTest" time="6.945">
+    <system-out><![CDATA[UserMenuDropDown Opened
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 11123
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 11123.
+Dec 16, 2024 5:38:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="usernavmenudropdown" classname="com.testng.testcases.UserMenuTest" time="10.274">
+    <system-out><![CDATA[UserMenuDropDown Opened
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 41441
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 41441.
+Dec 16, 2024 5:38:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="createaccount" classname="com.testng.testcases.AccountTest" time="11.956">
+    <system-err><![CDATA[[1734399536.267][WARNING]: Processing messages while being disconnected
+[1734399536.267][SEVERE]: Unable to receive message from renderer
+Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 32543
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 32543.
+Dec 16, 2024 5:38:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="createnewview" classname="com.testng.testcases.AccountTest" time="15.368">
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 6181
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 6181.
+Dec 16, 2024 5:39:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="editView" classname="com.testng.testcases.AccountTest" time="10.211">
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 13403
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 13403.
+Dec 16, 2024 5:39:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="mergeAccounts" classname="com.testng.testcases.AccountTest" time="0.0">
+    <system-err><![CDATA[[1734399586.038][SEVERE]: Unable to receive message from renderer
+Starting ChromeDriver 131.0.6778.108 (3b014839fbc4fb688b2f5af512d6ce312ad208b1-refs/branch-heads/6778@{#2393}) on port 42796
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 42796.
+Dec 16, 2024 5:39:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

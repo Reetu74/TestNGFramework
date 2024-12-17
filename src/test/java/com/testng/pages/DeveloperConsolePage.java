@@ -20,15 +20,23 @@ public class DeveloperConsolePage extends BasePage{
 	public void opendevconsole() throws InterruptedException
 	{
 	devconsole.click();
-	//driver.switchTo().activeElement();
-	//Thread.sleep(5000);
+	Thread.sleep(5000);
 	}
-
+	
+	String parentwindow = driver.getWindowHandle();
+	public void switchwindow()
+	{
+		 for(String windowhandle : driver.getWindowHandles())
+				 {
+			 driver.switchTo().window(windowhandle);
+				 }
+	}
+	
 	@FindBy(xpath="//*[@id=\"ext-gen1361\"]")
 	WebElement devconsolwnd;
 	public Boolean verifydevconwnd() 
 	{
-		
+		switchwindow();
 		Boolean devconwndflag = false;
 		if(devconsolwnd.isDisplayed())
 		{
@@ -36,4 +44,11 @@ public class DeveloperConsolePage extends BasePage{
 		}
 		return devconwndflag;
 	}
+	 public void closedevcon()
+	 {
+		switchwindow();
+		 
+		 driver.close();
+		 driver.switchTo().window(parentwindow);
+	 }
 }

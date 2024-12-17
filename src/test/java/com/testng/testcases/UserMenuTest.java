@@ -140,6 +140,7 @@ public class UserMenuTest extends BaseTest {
 	    mysettingspg.testactreminderbtn();
 	    Boolean popupwndflag =mysettingspg.verifypopupwinddisplayed();
 	    Assert.assertTrue(popupwndflag);
+	   // mysettingspg.closedpopwindow();
 	}
 
 	@Test
@@ -151,8 +152,9 @@ public class UserMenuTest extends BaseTest {
 		loginpg.clickonlogin();
 		userpage.usermenudropdown();
 		devconpage.opendevconsole();
-		//Boolean devconflag = devconpage.verifydevconwnd();
-		//Assert.assertTrue(devconflag,"Dev Console is not displayed");
+		Boolean devconflag = devconpage.verifydevconwnd();
+		Assert.assertTrue(devconflag,"Dev Console is not displayed");
+		devconpage.closedevcon();
 		
 	}
 	

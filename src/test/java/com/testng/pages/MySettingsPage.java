@@ -184,6 +184,9 @@ public class MySettingsPage extends BasePage
 	testactivityrembtn.click();
 	}
 	
+	String parentwindow = driver.getWindowHandle();
+	
+	
 	@FindBy(xpath="/html")
 	WebElement popwndw;
 	public Boolean verifypopupwinddisplayed() throws InterruptedException
@@ -193,11 +196,21 @@ public class MySettingsPage extends BasePage
 	{
 	    displayflag = true;
 	}
-	driver.switchTo().defaultContent();
-	Thread.sleep(2000);
+	//driver.switchTo().defaultContent();
+	//Thread.sleep(2000);
 	return displayflag;
 	}
 	
+	public void closedpopwindow()
+		{
+		String parentwindow = driver.getWindowHandle();
+		 for(String windowhandle : driver.getWindowHandles())
+				 {
+			 driver.switchTo().window(windowhandle);
+				 }
+		 driver.close();
+		 driver.switchTo().window(parentwindow);
+	}
 	
 }
 
